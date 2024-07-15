@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.687519a6.css",
-    "main.js": "/static/js/main.ad895458.js",
+    "main.css": "/static/css/main.ab826923.css",
+    "main.js": "/static/js/main.09354b86.js",
     "static/media/image-header.jpg": "/static/media/image-header.49b52ffa54752cb7c2d0.jpg",
     "static/media/image-gallery-milkbottles.jpg": "/static/media/image-gallery-milkbottles.df1d9d8460e873924250.jpg",
     "static/media/strawberry.jpg": "/static/media/strawberry.09c20c2d3df10b4e76a2.jpg",
@@ -17,11 +17,11 @@
     "index.html": "/index.html",
     "static/media/icon-arrow-down.svg": "/static/media/icon-arrow-down.979ef07a7cbb07d35f05bbaa093f7489.svg",
     "static/media/icon-hamburger.svg": "/static/media/icon-hamburger.7764b7eb6060edb45161f8b146f1373c.svg",
-    "main.687519a6.css.map": "/static/css/main.687519a6.css.map",
-    "main.ad895458.js.map": "/static/js/main.ad895458.js.map"
+    "main.ab826923.css.map": "/static/css/main.ab826923.css.map",
+    "main.09354b86.js.map": "/static/js/main.09354b86.js.map"
   },
   "entrypoints": [
-    "static/css/main.687519a6.css",
-    "static/js/main.ad895458.js"
+    "static/css/main.ab826923.css",
+    "static/js/main.09354b86.js"
   ]
 }

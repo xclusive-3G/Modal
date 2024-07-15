@@ -1,0 +1,111 @@
+.main-body {
+  width: 100vw;
+
+  .testimony-wrapper {
+    padding: 100px;
+
+    @media (max-width: 420px) {
+      padding: 50px;
+    }
+
+    @media (min-width: 421px) and (max-width: 980px) {
+      padding: 20px;
+    }
+    h3 {
+      text-align: center;
+      text-transform: uppercase;
+      color: var(--Dark-grayish-blue);
+      letter-spacing: 2px;
+    }
+    .portfolio {
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+
+      @media (max-width: 420px) {
+        display: flex;
+        flex-direction: column;
+      }
+      .clients {
+        text-align: center;
+      }
+      img {
+        border-radius: 50px;
+        object-fit: contain;
+        width: 50px;
+        margin: 50px 0;
+
+        @media (max-width: 420px) {
+          margin-top: 40px;
+          margin-bottom: 20px;
+        }
+      }
+      p {
+        padding: 20px;
+        margin-bottom: 50px;
+        color: var(--Very-dark-grayish-blue);
+
+        @media (max-width: 420px) {
+          padding: 6px;
+          margin-bottom: 20px;
+        }
+      }
+      h4 {
+        font-size: 18px;
+      }
+      h6 {
+        color: var(--Dark-grayish-blue);
+        font-size: 14px;
+        margin-top: 8px;
+      }
+    }
+  }
+
+  .gallery {
+    // margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: 100%;
+
+    @media (max-width: 520px) and (min-width: 310px) {
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      height: 100%;
+
+      // height: auto;
+    }
+
+    .grid-item img {
+      width: 100%;
+      height: 100%;
+
+      @media (max-width: 520px) and (min-width: 310px) {
+        height: 100%;
+      }
+      // height: auto;
+    }
+
+    // .bottle {
+    //   // background-color: red;
+    //   object-fit: cover;
+    //   width: 100vw;
+    //   background-image: url("../testimonials/logos/image-gallery-milkbottles.jpg");
+    //   background-position: center;
+    //   background-repeat: no-repeat;
+    //   background-size: cover;
+
+    //   @media (max-width: 420px) {
+    //     background-image: url("../testimonials/mobile-images/image-gallery-milkbottles.jpg");
+    //   }
+    // }
+    // .orange {
+    //   background-image: url("../testimonials/mobile-images/image-gallery-orange.jpg");
+    // }
+    // .cone {
+    //   background-image: url("../testimonials/mobile-images/image-gallery-cone.jpg");
+    // }
+    // .sugar {
+    //   background-image: url("../testimonials/mobile-images/image-gallery-sugar-cubes.jpg");
+    // }
+  }
+}

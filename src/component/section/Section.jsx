@@ -8,7 +8,7 @@ import sEgg from "../../component/section/images/egg.jpg";
 import sGlass from "../../component/section/images/glass.jpg";
 
 const Section = (props) => {
-  const [isMobile, setIsMobile] = useState(false);
+  const [isMobiles, setIsMobiles] = useState(false);
   return (
     <>
       {/* First Hero Section */}
@@ -27,7 +27,7 @@ const Section = (props) => {
           </div>
         </div>
         <div className="colOne-img">
-          {isMobile ? (
+          {isMobiles ? (
             <img src={sEgg} alt="egg" />
           ) : (
             <img src={egg} alt="egg" />
@@ -36,7 +36,7 @@ const Section = (props) => {
       </div>
       <div className="section2">
         <div className="colOne-img img2">
-          {isMobile ? (
+          {isMobiles ? (
             <img src={sGlass} alt="standout" />
           ) : (
             <img src={standout} alt="standout" />
